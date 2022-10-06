@@ -13,16 +13,17 @@ def random_color(): #returns a random color
     r = random.randint(0, 255)
     g = random.randint(0, 255)
     b = random.randint(0, 255)
-    random_color = (r, g, b)
-    return random_color
+    color = (r, g, b)
+    return color
+print(kotha.heading()) #prints: 0.0 in console #Tells turtle's current heading direction
+
+
+current_heading = kotha.heading()
+kotha
 
 
 
 
-for _ in range(1, 80):
-    kotha.color(random_color()) #picks a random color
-    kotha.left(5) #shift direction to the left by 5 degrees
-    kotha.circle(80) #draws a circle with radius 80
 
 
 
