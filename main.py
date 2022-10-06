@@ -19,7 +19,10 @@ def random_color(): #returns a random color
 
 
 
-
+for _ in range(1, 80):
+    kotha.color(random_color()) #picks a random color
+    kotha.left(5) #shift direction to the left by 5 degrees
+    kotha.circle(80) #draws a circle with radius 80
 
 
 
